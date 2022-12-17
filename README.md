@@ -26,3 +26,9 @@
 |nukkit.command.gamemode.adventure|切换游戏模式为冒险模式(对自己有效)|
 |nukkit.command.gamemode.spectator|切换游戏模式为观察者模式(对自己有效)|
 |nukkit.command.gamemode.other|切换其他玩家的游戏模式|
+|nukkit.command.time|更改游戏时间|
+|nukkit.command.time.add|添加游戏时间|
+|nukkit.command.time.set|设置游戏时间|
+|nukkit.command.time.start|启动时间流逝|
+|nukkit.command.time.stop|停止时间流逝|
+|nukkit.command.time.query|查询|
