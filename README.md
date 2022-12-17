@@ -10,3 +10,10 @@
 |nukkit.command.help|获取命令帮助|
 |nukkit.command.kill.self|允许玩家自杀|
 |nukkit.command.version|获得服务器版本信息|
+## 管理员玩家权限
+|权限节点|描述|
+|-|-|
+|nukkit.command.ban|执行封禁相关的命令|
+|nukkit.command.ban.player|封禁玩家|
+|nukkit.command.ban.ip|封禁玩家ip|
+|nukkit.command.ban.list|查看封禁列表|
