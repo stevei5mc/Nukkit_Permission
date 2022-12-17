@@ -39,3 +39,10 @@
 |nukkit.command.op|允许玩家改动op权限|
 |nukkit.command.op.give|允许玩家给予另一个玩家op权限|
 |nukkit.command.op.take|允许玩家撤销另一个玩家op权限|
+|nukkit.command.whitelist|白名单命令|
+|nukkit.command.whitelist.add|添加白名单|
+|nukkit.command.whitelist.remove|移除白名单|
+|nukkit.command.whitelist.reload|重载白名单|
+|nukkit.command.whitelist.enable|启用白名单|
+|nukkit.command.whitelist.disable|关闭白名单|
+|nukkit..command.whitelist.list|查看白名单中的玩家|
