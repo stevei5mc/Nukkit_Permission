@@ -20,3 +20,9 @@
 |nukkit.command.unban|执行解封相关的命令|
 |nukkit.command.unban.player|解封玩家|
 |nukkit.command.unban.ip|解封ip|
+|nukkit.command.gamemode|切换游戏模式|
+|nukkit.command.gamemode.survival|切换游戏模式为生存模式|
+|nukkit.command.gamemode.creative|切换游戏模式为创造模式|
+|nukkit.command.gamemode.adventure|切换游戏模式为冒险模式|
+|nukkit.command.gamemode.spectator|切换游戏模式为观察者模式|
+|nukkit.command.gamemode.other|切换其他玩家的游戏模式|
