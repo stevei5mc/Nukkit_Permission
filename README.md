@@ -15,5 +15,8 @@
 |-|-|
 |nukkit.command.ban|执行封禁相关的命令|
 |nukkit.command.ban.player|封禁玩家|
-|nukkit.command.ban.ip|封禁玩家ip|
+|nukkit.command.ban.ip|封禁ip|
 |nukkit.command.ban.list|查看封禁列表|
+|nukkit.command.unban|执行解封相关的命令|
+|nukkit.command.unban.player|解封玩家|
+|nukkit.command.unban.ip|解封ip|
