@@ -1,7 +1,7 @@
 # 我的世界 Nukkit 核心权限节点 (Nukkit Permission ID)
-> **这里列出了Nukkit核心的命令权限节点**
-> **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载`Nukkit`分支**
-> **普通玩家的权限一般是不用给予的**
+> **这里列出了Nukkit核心的命令权限节点**  
+> **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载`Nukkit`分支**  
+> **普通玩家的权限一般是不用给予的**  
 ## 普通玩家权限
 |权限节点|描述|
 |-|-|
