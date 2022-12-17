@@ -36,3 +36,6 @@
 |nukkit.command.save.enable|启用自动保存世界|
 |nukkit.command.save.disable|关闭自动保存世界|
 |nukkit.command.save.perform|手动保存世界|
+|nukkit.command.op|允许玩家改动op权限|
+|nukkit.command.op.give|允许玩家给予另一个玩家op权限|
+|nukkit.command.op.take|允许玩家撤销另一个玩家op权限|
