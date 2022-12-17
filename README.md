@@ -32,3 +32,7 @@
 |nukkit.command.time.start|启动时间流逝|
 |nukkit.command.time.stop|停止时间流逝|
 |nukkit.command.time.query|查询时间|
+|nukkit.command.save|保存世界|
+|nukkit.command.save.enable|启用自动保存世界|
+|nukkit.command.save.disable|关闭自动保存世界|
+|nukkit.command.save.perform|手动保存世界|
