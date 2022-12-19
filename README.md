@@ -11,6 +11,7 @@
 |nukkit.command.help|获取命令帮助|
 |nukkit.command.kill.self|允许玩家自杀|
 |nukkit.command.version|获得服务器版本信息|
+|nukkit.command.tell|允许玩家私下向其他玩家发送消息|
 ## 管理员玩家权限
 |权限节点|描述|
 |-|-|
@@ -47,3 +48,4 @@
 |nukkit.command.whitelist.enable|启用白名单|
 |nukkit.command.whitelist.disable|关闭白名单|
 |nukkit..command.whitelist.list|查看白名单中的玩家|
+|nukkit.broadcast.user|允许用户接收管理广播|
