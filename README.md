@@ -48,4 +48,11 @@
 |nukkit.command.whitelist.enable|启用白名单|
 |nukkit.command.whitelist.disable|关闭白名单|
 |nukkit..command.whitelist.list|查看白名单中的玩家|
-|nukkit.broadcast.user|允许用户接收管理广播|
+|nukkit.broadcast.user|允许玩家接收管理广播|
+|nukkit.command.say|允许玩家作为控制台讲话|
+|nukkit.command.give|允许玩家给予自己或其他玩家物品|
+|nukkit.command.effect|允许玩家使用药水效果|
+|nukkit.command.particle|允许玩家创建粒子效果|
+|nukkit.command.telepor|允许玩家传送玩家|
+|nukkit.command.kick|允许玩家踢球员|
+|nukkit.command.stop|允许玩家停止服务器|
