@@ -6,7 +6,7 @@
 ## 普通玩家权限
 |权限节点|描述|
 |-|-|
-|nukkit.broadcast.user|允许用户接收用户广播|
+|nukkit.broadcast.user|允许玩家接收玩家广播|
 |nukkit.command.me|让玩家聊天做出指定操作|
 |nukkit.command.help|获取命令帮助|
 |nukkit.command.kill.self|允许玩家自杀|
