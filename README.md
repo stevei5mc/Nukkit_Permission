@@ -3,6 +3,7 @@
 > **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载`Nukkit`分支**  
 > **普通玩家的权限一般是不用给予的**  
 > **[点击这里查看具体信息](https://github.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)**  
+> **如果有问题请发``issue` 以便我能判断问题所在**
 ## 普通玩家权限
 |权限节点|描述|
 |-|-|
