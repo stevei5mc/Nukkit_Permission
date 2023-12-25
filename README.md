@@ -46,10 +46,10 @@
 |```nukkit.command.whitelist.add```|添加白名单||
 |```nukkit.command.whitelist.remove```|移除白名单||
 |```nukkit.command.whitelist.reload```|重载白名单||
-|```nukkit.command.whitelist.enabl```e|启用白名单||
+|```nukkit.command.whitelist.enabl```|启用白名单||
 |```nukkit.command.whitelist.disable```|关闭白名单||
 |```nukkit..command.whitelist.list```|查看白名单中的玩家||
-|```nukkit.broadcast.user```|允许玩家接收管理广播||
+|```nukkit.broadcast.admin```|允许玩家接收管理广播||
 |```nukkit.command.say```|允许玩家作为控制台讲话||
 |```nukkit.command.give```|允许玩家给予自己或其他玩家物品||
 |```nukkit.command.effect```|允许玩家使用药水效果||
@@ -58,7 +58,7 @@
 |```nukkit.command.kick```|允许玩家踢球员||
 |```nukkit.command.stop```|允许玩家停止服务器||
 |```nukkit.command.list```|查看在线的玩家||
-|```nukkit..command.plugins```|查看服务器插件加载情况||
+|```nukkit.command.plugins```|查看服务器插件加载情况||
 |```nukkit.command.reload|```重新加载服务器配置和插件||
 |```nukkit.command.defaultgamemode```|更改默认游戏模式||
 |```nukkit.command.seed```|查看地图(世界)的种子||
