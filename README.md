@@ -1,8 +1,8 @@
 # 我的世界 Nukkit 核心权限节点 (Nukkit Permission ID)
 > **这里列出了Nukkit核心的命令权限节点**  
-> **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载[Nukkit](https://luckperms.net/download)分支**  
+> **建议搭配[LuckPerms权限组插件](https://githubfast.com/LuckPerms/LuckPerms)记得下载[Nukkit](https://luckperms.net/download)分支**  
 > **普通玩家的权限一般是不用给予的**  
-> **[点击这里查看具体信息](https://github.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)**  
+> **[点击这里查看具体信息](https://githubfast.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)**  
 > **如果有问题或疑问请发`issue` 以便我能判断问题所在**
 ## 普通玩家权限
 |权限节点|描述|
@@ -54,7 +54,7 @@
 |```nukkit.command.give```|允许玩家给予自己或其他玩家物品||
 |```nukkit.command.effect```|允许玩家使用药水效果||
 |```nukkit.command.particle```|允许玩家创建粒子效果||
-|```nukkit.command.telepor```|允许玩家传送玩家||
+|```nukkit.command.teleport```|允许玩家传送玩家||
 |```nukkit.command.kick```|允许玩家踢玩家||
 |```nukkit.command.stop```|允许玩家停止服务器||
 |```nukkit.command.list```|查看在线的玩家||
