@@ -75,4 +75,5 @@
 |```nukkit.command.enchant```|允许玩家为物品添加附魔效果||
 |```nukkit.command.difficulty```|允许玩家更改难度||
 |```nukkit.command.debug.perform```|允许玩家使用debugpaste命令||
+|```nukkit.command.clear```|允许玩家清理背包物品|[PR# 2172](https://github.com/CloudburstMC/Nukkit/pull/2172)|
 |```nukkit.textcolor```|允许玩家编写彩色文本||
