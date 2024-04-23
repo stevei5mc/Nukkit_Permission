@@ -1,20 +1,21 @@
 # 我的世界 Nukkit 核心权限节点 (Nukkit Permission ID)
-> **这里列出了Nukkit核心的命令权限节点**  
-> **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载[Nukkit](https://luckperms.net/download)分支**  
-> **普通玩家的权限一般是不用给予的**  
-> **[点击这里查看具体信息](https://github.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)**  
-> **如果有问题或疑问请发[issue](https://github.com/stevei5mc/Nukkit_Permission/issues)以便我能判断问题所在**  
-> **如果有错误或遗漏你可以为本内容提供[PR](https://github.com/stevei5mc/Nukkit_Permission/pulls)来修复问题**
-## 普通玩家权限
-|权限节点|描述|
-|:-:|:-:|
-|nukkit.broadcast.user|允许玩家接收玩家广播|
-|nukkit.command.me|让玩家聊天做出指定操作|
-|nukkit.command.help|获取命令帮助|
-|nukkit.command.kill.self|允许玩家自杀|
-|nukkit.command.version|获得服务器版本信息|
-|nukkit.command.tell|允许玩家私下向其他玩家发送消息|
-## 管理员玩家权限
+1. **这里列出了Nukkit核心的命令权限节点**  
+2. **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载[Nukkit](https://luckperms.net/download)分支**  
+3. **普通玩家的权限一般是不用给予的**  
+4. **[点击这里查看具体信息](https://github.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)**  
+5. **如果有问题或疑问请发[issue](https://github.com/stevei5mc/Nukkit_Permission/issues)以便我能判断问题所在**  
+6. **如果有错误或遗漏你可以为本内容提供[PR](https://github.com/stevei5mc/Nukkit_Permission/pulls)来修复问题**
+## **普通玩家权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
+|nukkit.broadcast.user|允许玩家接收玩家广播||
+|nukkit.command.me|让玩家聊天做出指定操作||
+|nukkit.command.help|获取命令帮助||
+|nukkit.command.kill.self|允许玩家自杀||
+|nukkit.command.version|获得服务器版本信息||
+|nukkit.command.tell|允许玩家私下向其他玩家发送消息||
+## **管理员玩家权限**
+### **封禁与解封权限**
 |权限节点|描述|备注|
 |:-:|:-:|:-:|
 |nukkit.command.ban|执行封禁相关的命令||
@@ -24,25 +25,40 @@
 |nukkit.command.unban|执行解封相关的命令||
 |nukkit.command.unban.player|解封玩家||
 |nukkit.command.unban.ip|解封ip||
+### **游戏模式权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
 |nukkit.command.gamemode|切换游戏模式||
 |nukkit.command.gamemode.survival|切换游戏模式为生存模式(对自己有效)||
 |nukkit.command.gamemode.creative|切换游戏模式为创造模式(对自己有效)||
 |nukkit.command.gamemode.adventure|切换游戏模式为冒险模式(对自己有效)||
 |nukkit.command.gamemode.spectator|切换游戏模式为观察者模式(对自己有效)||
 |nukkit.command.gamemode.other|切换其他玩家的游戏模式||
+### **游戏时间权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
 |nukkit.command.time|更改游戏时间||
 |nukkit.command.time.add|添加游戏时间||
 |nukkit.command.time.set|设置游戏时间||
 |nukkit.command.time.start|启动时间流逝||
 |nukkit.command.time.stop|停止时间流逝||
 |nukkit.command.time.query|查询时间||
+### **保存世界的权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
 |nukkit.command.save|保存世界||
 |nukkit.command.save.enable|启用自动保存世界||
 |nukkit.command.save.disable|关闭自动保存世界||
 |nukkit.command.save.perform|手动保存世界||
+### **添加和撤销OP权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
 |nukkit.command.op|允许玩家改动op权限||
 |nukkit.command.op.give|允许玩家给予另一个玩家op权限||
 |nukkit.command.op.take|允许玩家撤销另一个玩家op权限||
+### **服务器白名单的权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
 |nukkit.command.whitelist|白名单命令||
 |nukkit.command.whitelist.add|添加白名单||
 |nukkit.command.whitelist.remove|移除白名单||
@@ -50,6 +66,9 @@
 |nukkit.command.whitelist.enabl|启用白名单||
 |nukkit.command.whitelist.disable|关闭白名单||
 |nukkit.command.whitelist.list|查看白名单中的玩家||
+### **其余权限**
+|权限节点|描述|备注|
+|:-:|:-:|:-:|
 |nukkit.broadcast.admin|允许玩家接收管理广播||
 |nukkit.command.say|允许玩家作为控制台讲话||
 |nukkit.command.give|允许玩家给予自己或其他玩家物品||
