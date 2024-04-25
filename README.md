@@ -72,6 +72,13 @@
 |nukkit.command.whitelist.enabl|启用白名单||
 |nukkit.command.whitelist.disable|关闭白名单||
 |nukkit.command.whitelist.list|查看白名单中的玩家||
+|nukkit.command.allowlist|白名单命令|[NK MOT][mot]|
+|nukkit.command.allowlist.add|添加白名单|[NK MOT][mot]|
+|nukkit.command.allowlist.remove|移除白名单|[NK MOT][mot]|
+|nukkit.command.allowlist.reload|重载白名单|[NK MOT][mot]|
+|nukkit.command.allowlist.enabl|启用白名单|[NK MOT][mot]|
+|nukkit.command.allowlist.disable|关闭白名单|[NK MOT][mot]|
+|nukkit.command.allowlist.list|查看白名单中的玩家|[NK MOT][mot]|
 ---
 ### **其余权限**
 |权限节点|描述|备注|
@@ -104,3 +111,6 @@
 |nukkit.command.debug.perform|允许玩家使用debugpaste命令||
 |nukkit.command.clear|允许玩家清理背包物品|[NK PR# 2172](https://github.com/CloudburstMC/Nukkit/pull/2172)|
 |nukkit.textcolor|允许玩家编写彩色文本||
+
+
+[mot]: https://github.com/MemoriesOfTime/Nukkit-MOT/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java "点击查看详细信息"
