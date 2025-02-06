@@ -1,19 +1,11 @@
 # 我的世界 Nukkit 核心权限节点 (Nukkit Permission ID)
-1. **这里列出了Nukkit核心的命令权限节点**  
-2. **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载[Nukkit](https://luckperms.net/download)分支**  
-3. **普通玩家的权限一般是不用给予的**  
-4. **[点击这里查看具体信息](https://github.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)**  
-5. **如果有问题或疑问请发[issue](https://github.com/stevei5mc/Nukkit_Permission/issues)以便我能判断问题所在**  
-6. **如果有错误或遗漏你可以为本内容提供[PR](https://github.com/stevei5mc/Nukkit_Permission/pulls)来修复问题**
-## **普通玩家权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.broadcast.user|允许玩家接收玩家广播||
-|nukkit.command.me|让玩家聊天做出指定操作||
-|nukkit.command.help|获取命令帮助||
-|nukkit.command.kill.self|允许玩家自杀||
-|nukkit.command.version|获得服务器版本信息||
-|nukkit.command.tell|允许玩家私下向其他玩家发送消息||
+## **前言**
+1. **这里列出了[Nukkit](https://github.com/CloudburstMC/Nukkit/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java)核心的命令权限节点**  
+2. **建议搭配[LuckPerms权限组插件](https://github.com/LuckPerms/LuckPerms)记得下载`Nukkit`分支的[LuckPerms](https://luckperms.net/download)**  
+3. **普通玩家的权限是默认拥有的，不需要给予即可使用的** 
+4. **如果有问题或疑问请发[issue](https://github.com/stevei5mc/Nukkit_Permission/issues)以便我能判断问题所在**  
+5. **如果有错误或遗漏您可以为本内容提供[PR](https://github.com/stevei5mc/Nukkit_Permission/pulls)来修复问题**
+## **[普通玩家权限](./player.md)**
 ## **管理员玩家权限**
 ---
 ### **封禁与解封权限**
