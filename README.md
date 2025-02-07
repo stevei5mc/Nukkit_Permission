@@ -5,74 +5,18 @@
 3. **普通玩家的权限是默认拥有的，不需要给予即可使用的** 
 4. **如果有问题或疑问请发[issue](https://github.com/stevei5mc/Nukkit_Permission/issues)以便我能判断问题所在**  
 5. **如果有错误或遗漏您可以为本内容提供[PR](https://github.com/stevei5mc/Nukkit_Permission/pulls)来修复问题**
-## **[普通玩家权限](./player.md)**
-## **管理员玩家权限**
----
-### **封禁与解封权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.command.ban|执行封禁相关的命令||
-|nukkit.command.ban.player|封禁玩家||
-|nukkit.command.ban.ip|封禁ip||
-|nukkit.command.ban.list|查看封禁列表||
-|nukkit.command.unban|执行解封相关的命令||
-|nukkit.command.unban.player|解封玩家||
-|nukkit.command.unban.ip|解封ip||
----
-### **游戏模式权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.command.gamemode|切换游戏模式||
-|nukkit.command.gamemode.survival|切换游戏模式为生存模式(对自己有效)||
-|nukkit.command.gamemode.creative|切换游戏模式为创造模式(对自己有效)||
-|nukkit.command.gamemode.adventure|切换游戏模式为冒险模式(对自己有效)||
-|nukkit.command.gamemode.spectator|切换游戏模式为观察者模式(对自己有效)||
-|nukkit.command.gamemode.other|切换其他玩家的游戏模式||
----
-### **游戏时间权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.command.time|更改游戏时间||
-|nukkit.command.time.add|添加游戏时间||
-|nukkit.command.time.set|设置游戏时间||
-|nukkit.command.time.start|启动时间流逝||
-|nukkit.command.time.stop|停止时间流逝||
-|nukkit.command.time.query|查询时间||
----
-### **保存世界的权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.command.save|保存世界||
-|nukkit.command.save.enable|启用自动保存世界||
-|nukkit.command.save.disable|关闭自动保存世界||
-|nukkit.command.save.perform|手动保存世界||
----
-### **添加和撤销OP权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.command.op|允许玩家改动op权限||
-|nukkit.command.op.give|允许玩家给予另一个玩家op权限||
-|nukkit.command.op.take|允许玩家撤销另一个玩家op权限||
----
-### **服务器白名单的权限**
-|权限节点|描述|备注|
-|:-:|:-:|:-:|
-|nukkit.command.whitelist|白名单命令||
-|nukkit.command.whitelist.add|添加白名单||
-|nukkit.command.whitelist.remove|移除白名单||
-|nukkit.command.whitelist.reload|重载白名单||
-|nukkit.command.whitelist.enabl|启用白名单||
-|nukkit.command.whitelist.disable|关闭白名单||
-|nukkit.command.whitelist.list|查看白名单中的玩家||
-|nukkit.command.allowlist|白名单命令|[NK MOT][mot]|
-|nukkit.command.allowlist.add|添加白名单|[NK MOT][mot]|
-|nukkit.command.allowlist.remove|移除白名单|[NK MOT][mot]|
-|nukkit.command.allowlist.reload|重载白名单|[NK MOT][mot]|
-|nukkit.command.allowlist.enabl|启用白名单|[NK MOT][mot]|
-|nukkit.command.allowlist.disable|关闭白名单|[NK MOT][mot]|
-|nukkit.command.allowlist.list|查看白名单中的玩家|[NK MOT][mot]|
----
-### **其余权限**
+## 权限类型
+- **[普通玩家权限](./player.md)**
+### **管理员玩家权限**
+- **[封禁与解封权限](./admin/ban_and_unban.md)**
+- **[游戏模式权限](./admin/gamemode.md)**
+- **[游戏时间权限](./admin/time.md)**
+- **[保存世界的权限](./admin/save_world_and_op.md#保存世界的权限)**
+- **[添加和撤销OP权限](./admin/save_world_and_op.md#添加和撤销op权限)**
+- **[击杀命令权限](./admin/save_world_and_op_and_kill.md#击杀命令权限)**
+- **[服务器白名单的权限](./admin/whitelist.md)**
+- **其余权限**
+
 |权限节点|描述|备注|
 |:-:|:-:|:-:|
 |nukkit.broadcast.admin|允许玩家接收管理广播||
@@ -103,6 +47,3 @@
 |nukkit.command.debug.perform|允许玩家使用debugpaste命令||
 |nukkit.command.clear|允许玩家清理背包物品|[NK PR# 2172](https://github.com/CloudburstMC/Nukkit/pull/2172)|
 |nukkit.textcolor|允许玩家编写彩色文本||
-
-
-[mot]: https://github.com/MemoriesOfTime/Nukkit-MOT/blob/master/src/main/java/cn/nukkit/permission/DefaultPermissions.java "点击查看详细信息"

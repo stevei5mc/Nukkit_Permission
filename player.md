@@ -1,4 +1,3 @@
-# **Nukkit 权限**
 ## **普通玩家权限**
 <table>
     <tr align="center" valign="center">
