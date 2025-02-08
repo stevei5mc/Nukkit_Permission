@@ -7,7 +7,7 @@
 5. **如果有错误或遗漏您可以为本内容提供[PR](https://github.com/stevei5mc/Nukkit_Permission/pulls)来修复问题**
 ## 权限类型
 - **[普通玩家权限](./player.md)**
-### **管理员玩家权限**
+### **管理员权限类型**
 - **[封禁与解封权限](./admin/ban_and_unban.md)**
 - **[游戏模式权限](./admin/gamemode.md)**
 - **[游戏时间权限](./admin/time.md)**

@@ -30,3 +30,14 @@
 |nukkit.command.debug.perform|允许玩家使用debugpaste命令||
 |nukkit.command.clear|允许玩家清理背包物品|[NK PR# 2172](https://github.com/CloudburstMC/Nukkit/pull/2172)|
 |nukkit.textcolor|允许玩家编写彩色文本||
+
+## **更多权限类型**
+- **[普通玩家权限](../player.md)**
+### **管理员权限类型**
+- **[封禁与解封权限](./ban_and_unban.md)**
+- **[游戏模式权限](./gamemode.md)**
+- **[游戏时间权限](./time.md)**
+- **[保存世界的权限](./save_world.md)**
+- **[添加和撤销OP权限](./op.md)**
+- **[击杀命令权限](./kill.md)**
+- **[服务器白名单的权限](./whitelist.md)**

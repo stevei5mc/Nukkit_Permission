@@ -22,3 +22,14 @@
         <td>nukkit.command.tell</td><td>允许玩家私下向其他玩家发送消息</td><td></td>
     </tr>
 </table>
+
+## **更多权限类型**
+### **管理员权限类型**
+- **[封禁与解封权限](./admin/ban_and_unban.md)**
+- **[游戏模式权限](./admin/gamemode.md)**
+- **[游戏时间权限](./admin/time.md)**
+- **[保存世界的权限](./admin/save_world.md)**
+- **[添加和撤销OP权限](./admin/op.md)**
+- **[击杀命令权限](./admin/kill.md)**
+- **[服务器白名单的权限](./admin/whitelist.md)**
+- **[其余权限](./admin/other.md)**
